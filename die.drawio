@@ -1,0 +1,259 @@
+<mxfile host="app.diagrams.net" modified="2023-10-26T15:07:27.089Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="a4S72CCilV2J68_yaJGf" version="21.6.5" type="device">
+  <diagram name="페이지-1" id="M89IUTdPV8xylworgY3c">
+    <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QaiPcm4OLiW9IgiH_XNk-1" target="QaiPcm4OLiW9IgiH_XNk-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-1" value="&lt;font color=&quot;#ffffff&quot;&gt;start&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=default;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="90" y="10" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QaiPcm4OLiW9IgiH_XNk-2" target="QaiPcm4OLiW9IgiH_XNk-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-2" value="회색으로 변환" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="150" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QaiPcm4OLiW9IgiH_XNk-3" target="QaiPcm4OLiW9IgiH_XNk-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-3" value="노이즈 삭제" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="210" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QaiPcm4OLiW9IgiH_XNk-4" target="QaiPcm4OLiW9IgiH_XNk-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-4" value="닫힌 선 검색" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="270" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QaiPcm4OLiW9IgiH_XNk-5" target="QaiPcm4OLiW9IgiH_XNk-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-5" value="해당 객체 사각형으로 위치 표현" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QaiPcm4OLiW9IgiH_XNk-6" target="QaiPcm4OLiW9IgiH_XNk-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-6" value="번호판 숫자만 추출&lt;br&gt;(숫자 가로 세로 비율)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QaiPcm4OLiW9IgiH_XNk-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-7" value="번호판 숫자만 추출&lt;br&gt;(숫자 사이 간격 일정)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QaiPcm4OLiW9IgiH_XNk-11" target="QaiPcm4OLiW9IgiH_XNk-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-11" value="번호판 사진 로드" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="50" y="90" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="QaiPcm4OLiW9IgiH_XNk-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="640" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QaiPcm4OLiW9IgiH_XNk-14" target="QaiPcm4OLiW9IgiH_XNk-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-14" value="인식된 차량 번호 &lt;br&gt;출력" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="55" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="QaiPcm4OLiW9IgiH_XNk-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="60" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QaiPcm4OLiW9IgiH_XNk-33" target="QaiPcm4OLiW9IgiH_XNk-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-33" value="회색으로 변환" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="150" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QaiPcm4OLiW9IgiH_XNk-35" target="QaiPcm4OLiW9IgiH_XNk-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-35" value="노이즈 삭제" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="210" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QaiPcm4OLiW9IgiH_XNk-37" target="QaiPcm4OLiW9IgiH_XNk-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-37" value="닫힌 선 검색" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="270" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QaiPcm4OLiW9IgiH_XNk-39" target="QaiPcm4OLiW9IgiH_XNk-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-39" value="해당 객체 사각형으로 위치 표현" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QaiPcm4OLiW9IgiH_XNk-41" target="QaiPcm4OLiW9IgiH_XNk-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-41" value="번호판 숫자만 추출&lt;br&gt;(숫자 가로 세로 비율)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QaiPcm4OLiW9IgiH_XNk-43" target="QaiPcm4OLiW9IgiH_XNk-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-43" value="번호판 숫자만 추출&lt;br&gt;(숫자 사이 간격 일정)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QaiPcm4OLiW9IgiH_XNk-45" target="QaiPcm4OLiW9IgiH_XNk-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-45" value="번호판 사진 로드" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="235" y="90" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#020301;" edge="1" parent="1" source="QaiPcm4OLiW9IgiH_XNk-47" target="QaiPcm4OLiW9IgiH_XNk-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-47" value="숫자 하나씩&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;사진 분할 저장" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="240" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#020301;" edge="1" parent="1" source="QaiPcm4OLiW9IgiH_XNk-49" target="QaiPcm4OLiW9IgiH_XNk-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-49" value="숫자 하나씩&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;메타데이터 저장" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="240" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-51" value="인식 모델로 숫자 인식" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="55" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#020301;" edge="1" parent="1" source="QaiPcm4OLiW9IgiH_XNk-52" target="QaiPcm4OLiW9IgiH_XNk-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-52" value="해당 데이터 라벨링&lt;br&gt;(수작업)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="237.5" y="749" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#020301;" edge="1" parent="1" source="QaiPcm4OLiW9IgiH_XNk-54" target="QaiPcm4OLiW9IgiH_XNk-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-54" value="사진과 라벨 로드" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="385" y="749" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#020301;" edge="1" parent="1" source="QaiPcm4OLiW9IgiH_XNk-57" target="QaiPcm4OLiW9IgiH_XNk-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-57" value="CNN 모델 생성" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="385" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="QaiPcm4OLiW9IgiH_XNk-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-59" value="평가" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="385" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="QaiPcm4OLiW9IgiH_XNk-107">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="587" y="60" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QaiPcm4OLiW9IgiH_XNk-95" target="QaiPcm4OLiW9IgiH_XNk-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-95" value="회색으로 변환" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="527" y="150" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QaiPcm4OLiW9IgiH_XNk-97" target="QaiPcm4OLiW9IgiH_XNk-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-97" value="노이즈 삭제" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="527" y="210" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QaiPcm4OLiW9IgiH_XNk-99" target="QaiPcm4OLiW9IgiH_XNk-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-99" value="닫힌 선 검색" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="527" y="270" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QaiPcm4OLiW9IgiH_XNk-101" target="QaiPcm4OLiW9IgiH_XNk-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-101" value="해당 객체 사각형으로 위치 표현" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="527" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QaiPcm4OLiW9IgiH_XNk-103" target="QaiPcm4OLiW9IgiH_XNk-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-103" value="번호판 숫자만 추출&lt;br&gt;(숫자 가로 세로 비율)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="527" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QaiPcm4OLiW9IgiH_XNk-105" target="QaiPcm4OLiW9IgiH_XNk-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-105" value="번호판 숫자만 추출&lt;br&gt;(숫자 사이 간격 일정)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="527" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QaiPcm4OLiW9IgiH_XNk-107" target="QaiPcm4OLiW9IgiH_XNk-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-107" value="라벨링이 된&lt;br&gt;번호판 사진 로드" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="522" y="90" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#000000;" edge="1" parent="1" source="QaiPcm4OLiW9IgiH_XNk-109" target="QaiPcm4OLiW9IgiH_XNk-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-109" value="숫자 하나씩&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;사진 분할 저장" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="527" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#000000;" edge="1" parent="1" source="QaiPcm4OLiW9IgiH_XNk-111" target="QaiPcm4OLiW9IgiH_XNk-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-111" value="숫자 하나씩&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;메타데이터 저장" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="527" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#000000;" edge="1" parent="1" source="QaiPcm4OLiW9IgiH_XNk-113" target="QaiPcm4OLiW9IgiH_XNk-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-113" value="해당 데이터 라벨링&lt;br&gt;(파일 이름 분할)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="524.5" y="749" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#000000;" edge="1" parent="1" source="QaiPcm4OLiW9IgiH_XNk-115" target="QaiPcm4OLiW9IgiH_XNk-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-115" value="사진과 라벨 로드" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="672" y="749" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#000000;" edge="1" parent="1" source="QaiPcm4OLiW9IgiH_XNk-117" target="QaiPcm4OLiW9IgiH_XNk-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-117" value="CNN 모델 생성" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="672" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="QaiPcm4OLiW9IgiH_XNk-119">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="732" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-119" value="평가" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="672" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-121" value="&lt;font color=&quot;#ffffff&quot;&gt;start&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=default;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="275" y="10" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-122" value="&lt;font color=&quot;#ffffff&quot;&gt;start&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=default;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="562" y="10" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-123" value="&lt;font color=&quot;#ffffff&quot;&gt;end&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=default;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="420" y="495" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-124" value="&lt;font color=&quot;#ffffff&quot;&gt;end&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=default;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="707" y="495" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QaiPcm4OLiW9IgiH_XNk-125" value="&lt;font color=&quot;#ffffff&quot;&gt;end&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=default;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="90" y="754" width="50" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
