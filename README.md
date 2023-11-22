@@ -3,7 +3,10 @@
 
 ---
 - car_number_divide.ipynb : 정면 자동차 번호판 숫자별 파일 분화 가능   
-- car_number_functionalize.ipynb : 각도가 기운 자동차 번호판 파일 분화 (진행중)
+- car_number_functionalize.ipynb : 각도가 기운 자동차 번호판 파일 분화   
+글자 인식 모델 선택을 위한 테스트   
+- handDM_test.ipynb : 만드는 모델(진행중)   
+- openCV_test.ipynb : openCV 인식 사용   
 
 ---
 ### 이슈
