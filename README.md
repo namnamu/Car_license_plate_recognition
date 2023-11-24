@@ -3,10 +3,14 @@
 
 ---
 - car_number_divide.ipynb : 정면 자동차 번호판 숫자별 파일 분화 가능   
-- car_number_functionalize.ipynb : 각도가 기운 자동차 번호판 파일 분화   
-글자 인식 모델 선택을 위한 테스트   
-- handDM_test.ipynb : 만드는 모델(진행중)   
-- openCV_test.ipynb : openCV 인식 사용   
+- car_number_functionalize.ipynb : 각도가 기운 자동차 번호판 파일 분화(진행중)   
+
+글자 인식 모델 선택을 위한 임시 테스트 파일   
+- handDM_test.ipynb : CNN 기본 모델   
+- openCV_test.ipynb : openCV 인식 사용
+
+<strong>목표 프로세스</strong>   
+![image](https://github.com/namnamu/Car_license_plate_recognition/assets/50188271/50c6a0bc-721f-4b07-9b3a-a258ce193c20)
 
 ---
 ### 이슈
